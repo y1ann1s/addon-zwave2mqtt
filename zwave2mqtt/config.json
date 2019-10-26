@@ -39,6 +39,10 @@
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
-    "leave_front_door_open": "bool?"
+    "leave_front_door_open": "bool?",
+    "SOCAT_ZWAVE_TYPE": "str",
+    "SOCAT_ZWAVE_HOST": "str",
+    "SOCAT_ZWAVE_PORT": "str",
+    "SOCAT_ZWAVE_LINK": "str"
   }
 }
