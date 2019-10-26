@@ -16,6 +16,7 @@ RUN \
         openzwave-dev=1.4.164-r4 \
         python2-dev~=2.7 \
         yarn=1.16.0-r0 \
+        socat \
     \
     && apk add --no-cache \
         eudev=3.2.8-r0 \
@@ -81,7 +82,7 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="Z-Wave to MQTT" \
+    io.hass.name="Z-Wave to MQTT yiamel" \
     io.hass.description="Fully configurable Z-Wave to MQTT gateway and control panel." \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
